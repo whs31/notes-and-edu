@@ -24,4 +24,15 @@
 - $|z|=\frac{2}{2\sqrt{2}}=\frac{\sqrt{2}}{2}$
 - $\varphi=\frac{\pi}{3}-\frac{\pi}{4}=\frac{\pi}{12}$ 
 - По *формуле Муавра*: 
-	- $z^{32}=(\frac{\sqrt{2}}{2})^{32}(cos(32*\frac{\pi}{12})+isin(32*\frac{\pi}{12}))$ 
+	- $z^{32}=(\frac{\sqrt{2}}{2})^{32}(cos(32*\frac{\pi}{12})+isin(32*\frac{\pi}{12}))=\frac{1}{65536}(cos(\frac{8\pi}{3})+isin(\frac{8\pi}{3}))$ 
+	- $z^{32}=\frac{-\frac{1}{2}+i\frac{\sqrt{3}}{2}}{65536}=-\frac{1}{131072}+i\frac{\sqrt{3}}{131072}$ 
+
+###### **3.** Представить в алгебраической форме числа $cos(\frac{\pi}{6}-i); \ \ sin(\frac{\pi}{3}+i)$.
+- *Формулы приведения:*
+$$\begin{array}{cl}&sin(a+b)=sin(a)cos(b)+cos(a)sin(b) \\& cos(a+b)=cos(a)cos(b)-sin(a)sin(b)\end{array}$$
+- $cos(\frac{\pi}{6}-i)=cos\frac{\pi}{6}cos(-i)+sin\frac{\pi}{6}sin(-i)=\frac{1}{2}(\sqrt{3}cos(-i)+sin(-i))$
+- По *формулам гиперболических функций:*
+$$\begin{array}{cl}&cos(iz) = ch(z), \ \ sin(iz)=i*sh(z) \\&sh(x) = \frac{e^{x}-e^{-x}}{2}, \ \ ch(x)=\frac{e^x+e^{-x}}{2} \end{array}$$
+- $cos(\frac{\pi}{6}-i)=\frac{\sqrt{3}ch(-1)+i*sh(-1)}{2}$
+- $ch(-1)=\frac{e^{-1}+e}{2}, \ \ sh(-1)=\frac{e^{-1}-e}{2}$
+- $z = \frac{\sqrt{3}}{4}(\frac{1}{e}+e)+i*\frac{1}{4}(\frac{1}{e}-e)$
