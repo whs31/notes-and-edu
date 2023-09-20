@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e6c9350696a5037c",
+        "id": "02054b740d1d210a",
         "type": "tabs",
         "children": [
           {
@@ -15,8 +15,17 @@
               "state": {
                 "file": "solutions.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "35d4e5642def4266",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -65,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,6 +158,8 @@
   },
   "active": "da926a3fc15a7486",
   "lastOpenFiles": [
+    "solutions.docx",
+    "solutions.tex",
     "overview.md",
     "solutions.md",
     "pictures/pic_2.png",
