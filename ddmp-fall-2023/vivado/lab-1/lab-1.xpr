@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="G:/Work/repositories/education/ddmp-fall-2023/vivado/lab-1/lab-1.xpr">
+<Project Version="7" Minor="40" Path="C:/Users/user/Documents/GitHub/education/ddmp-fall-2023/vivado/lab-1/lab-1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="e09bc6478210456faa350c88f30b3585"/>
