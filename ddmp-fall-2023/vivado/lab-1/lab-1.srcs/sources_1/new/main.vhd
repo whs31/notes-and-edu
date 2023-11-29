@@ -117,24 +117,24 @@ end architecture;
 --????????? ?????, ? ?????? - ??? ??????????? ?????????? ???????????? ?????? ?? ??? ???????
 --?????. ???????? ????? ?????? ?????????? ? ??????? ???????? ????????? ???????.
 
-library ieee; 
-use ieee.STD_LOGIC_1164.all; 
+--library ieee; 
+--use ieee.STD_LOGIC_1164.all; 
 
-entity lab_4_3 is 
-    port (
-        x: in std_logic_vector(3 downto 0); 
-        y: out std_logic_vector(7 downto 0)
-    ); 
-end entity; 
+--entity lab_4_3 is 
+--    port (
+--        x: in std_logic_vector(3 downto 0); 
+--        y: out std_logic_vector(7 downto 0)
+--    ); 
+--end entity; 
 
-architecture impl of lab_4_3 is 
-begin 
-    y(3 downto 0) <= x; 
-    y(4) <= x(2); 
-    y(5) <= x(3); 
-    y(6) <= x(0); 
-    y(7) <= x(1); 
-end architecture;
+--architecture impl of lab_4_3 is 
+--begin 
+--    y(3 downto 0) <= x; 
+--    y(4) <= x(2); 
+--    y(5) <= x(3); 
+--    y(6) <= x(0); 
+--    y(7) <= x(1); 
+--end architecture;
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --?????????? ???? ??????????????? ????????????? ?????.
@@ -142,44 +142,44 @@ end architecture;
 --(????????) ? ???? ????????????? ????? (?????????????? ?????????) ??? ???????????
 --?????????? ?????????
 
-library ieee; 
-use ieee.STD_LOGIC_1164.all; 
-use ieee.std_logic_arith.all; 
+--library ieee; 
+--use ieee.STD_LOGIC_1164.all; 
+--use ieee.std_logic_arith.all; 
 
-entity lab_4_4 is 
-    port ( 
-        x1: in std_logic_vector (1 downto 0); 
-        x2 : in std_logic_vector (1 downto 0); 
-        an : out std_logic_vector (3 downto 0); 
-        y: out std_logic_vector (6 downto 0)
-    ); 
-end entity; 
+--entity lab_4_4 is 
+--    port ( 
+--        x1: in std_logic_vector (1 downto 0); 
+--        x2 : in std_logic_vector (1 downto 0); 
+--        an : out std_logic_vector (3 downto 0); 
+--        y: out std_logic_vector (6 downto 0)
+--    ); 
+--end entity; 
 
-architecture impl of lab_4_4 is 
-    signal din : std_logic_vector (3 downto 0); 
-begin 
-    an <= "1110"; 
+--architecture impl of lab_4_4 is 
+--    signal din : std_logic_vector (3 downto 0); 
+--begin 
+--    an <= "1110"; 
     
-    process (x1,x2) is 
-    begin 
-        din <= (unsigned(x1)* unsigned(x2)); 
-    end process; 
+--    process (x1,x2) is 
+--    begin 
+--        din <= (unsigned(x1)* unsigned(x2)); 
+--    end process; 
 
-    y <= not "0111111" when din = X"0" else 
-         not "0000110" when din = X"1" else 
-         not "1011011" when din = X"2" else 
-         not "1001111" when din = X"3" else 
-         not "1100110" when din = X"4" else 
-         not "1101101" when din = X"5" else 
-         not "1111101" when din = X"6" else 
-         not "0000111" when din = X"7" else 
-         not "1111111" when din = X"8" else 
-         not "1101111" when din = X"9" else 
-         not "1110111" when din = X"A" else 
-         not "1111100" when din = X"B" else 
-         not "0111001" when din = X"C" else 
-         not "0111110" when din = X"D" else 
-         not "1111001" when din = X"E" else 
-         not "1110001" when din = X"F"; 
-end architecture;
+--    y <= not "0111111" when din = X"0" else 
+--         not "0000110" when din = X"1" else 
+--         not "1011011" when din = X"2" else 
+--         not "1001111" when din = X"3" else 
+--         not "1100110" when din = X"4" else 
+--         not "1101101" when din = X"5" else 
+--         not "1111101" when din = X"6" else 
+--         not "0000111" when din = X"7" else 
+--         not "1111111" when din = X"8" else 
+--         not "1101111" when din = X"9" else 
+--         not "1110111" when din = X"A" else 
+--         not "1111100" when din = X"B" else 
+--         not "0111001" when din = X"C" else 
+--         not "0111110" when din = X"D" else 
+--         not "1111001" when din = X"E" else 
+--         not "1110001" when din = X"F"; 
+--end architecture;
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
