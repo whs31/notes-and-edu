@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "6d23699aa6c4f947",
+    "id": "241c6bec80bc7493",
     "type": "split",
     "children": [
       {
-        "id": "3979a361a0dd2c87",
+        "id": "1fecd9d1cd2144c6",
         "type": "tabs",
         "children": [
           {
-            "id": "d9251aa6a3a840e0",
+            "id": "16983e7627413b4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "common-principles.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "89ead1dc94b21307",
+    "id": "37a2677b96241d07",
     "type": "split",
     "children": [
       {
-        "id": "d6fe9314987d106d",
+        "id": "6f68992d33d8c6ef",
         "type": "tabs",
         "children": [
           {
-            "id": "43534f8d50037bc6",
+            "id": "a27b688c57514a0b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "cc1bf733ca1f6909",
+            "id": "c9a93fb86e30fd0f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "399bcc679dcea954",
+            "id": "65f7a83f12be84c3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,22 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "ea3ec33901fc4d70",
+    "id": "526f697c97361166",
     "type": "split",
     "children": [
       {
-        "id": "8bd8aa36c4d9cd77",
+        "id": "95618f7899b755b7",
         "type": "tabs",
         "children": [
           {
-            "id": "2780726889147e59",
+            "id": "6d74e084fd9c9354",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "common-principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "2327474470c39bd6",
+            "id": "34e0f51010b2efa7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "common-principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "78fce0e9206ed134",
+            "id": "3651e693055a2edb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +120,13 @@
             }
           },
           {
-            "id": "3abc5358aac15797",
+            "id": "65b62671b69195c8",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "common-principles.md"
+              }
             }
           }
         ]
@@ -138,19 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9251aa6a3a840e0",
+  "active": "16983e7627413b4f",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "lab-admission.md",
-    "vivado/lab-1/lab-1.sim/sim_1/behav/xsim/webtalk_3972.backup.log",
-    "vivado/lab-1/lab-1.sim/sim_1/behav/xsim/webtalk_3972.backup.jou",
-    "vivado/lab-1/lab-1.sim/sim_1/behav/xsim/xsim.dir/lab_1_behav/webtalk/xsim_webtalk.tcl",
-    "vivado/lab-1/lab-1.sim/sim_1/behav/xsim/xsim.dir/lab_1_behav/webtalk/usage_statistics_ext_xsim.wdm",
-    "vivado/lab-1/lab-1.sim/sim_1/behav/xsim/xsim.dir/lab_1_behav/xsimSettings.ini",
-    "vivado/lab-1/lab-1.sim/sim_1/impl/func/xsim/webtalk_16048.backup.log",
-    "vivado/lab-1/lab-1.sim/sim_1/impl/func/xsim/webtalk_16048.backup.jou",
-    "vivado/lab-1/lab-1.sim/sim_1/impl/func/xsim/xsim.dir/lab_1_func_impl/webtalk/xsim_webtalk.tcl",
-    "vivado/lab-1/lab-1.sim/sim_1/impl/func/xsim/xsim.dir/lab_1_func_impl/webtalk/usage_statistics_ext_xsim.wdm",
-    "vivado/lab-1/lab-1.sim/sim_1/impl/func/xsim/xsim.dir/lab_1_func_impl/xsimSettings.ini"
+    "basics/basic-types.md",
+    "common-principles.md",
+    "basics/variables.md",
+    "().md",
+    "basics"
   ]
 }
