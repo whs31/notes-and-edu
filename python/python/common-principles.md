@@ -9,6 +9,7 @@
 - [**Функции**](basics/functions.md)
 - [**Словари**](basics/dictionaries.md)
 #### Продвинутые техники
+- [**Форматирование текста**](advanced/formatting.md)
 - [**Лямбда-функции**](advanced/lambdas.md)
 - [**Регулярные выражения**](advanced/regex.md)
 - [**Множества**](advanced/sets.md)

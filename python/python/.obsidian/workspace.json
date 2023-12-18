@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f3c266097971b3de",
+        "id": "668248c942a38c77",
         "type": "tabs",
         "children": [
           {
-            "id": "c77fb9f812904667",
+            "id": "6a0bfacde24b1b39",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "common-principles.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "common-principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "common-principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "common-principles.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,13 +138,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c77fb9f812904667",
+  "active": "6a0bfacde24b1b39",
   "lastOpenFiles": [
-    "basics/basic-types.md",
-    "common-principles.md",
     "basics/dictionaries.md",
-    "basics/loops.md",
+    "basics/functions.md",
+    "basics/basic-types.md",
+    "basics/conditions-and-booleans.md",
     "basics/lists.md",
+    "basics/loops.md",
+    "basics/variables.md",
+    "basics/strings.md",
+    "common-principles.md",
+    "advanced/formatting.md",
     "advanced/tuples.md",
     "pandas/introduction.md",
     "pandas",
@@ -160,10 +157,6 @@
     "advanced/regex.md",
     "advanced/lambdas.md",
     "advanced",
-    "basics/functions.md",
-    "basics/conditions-and-booleans.md",
-    "basics/strings.md",
-    "basics/variables.md",
     "().md",
     "basics"
   ]
