@@ -187,5 +187,41 @@ print(names)
 Для сортировки можно использовать функцию `sorted()` и метод `sort()`. Обе этих функции ведут себя одинаково - числа сортируются по возрастанию, строки - по алфавиту:
 ```python
 numbers = [3, 1, -1, 0, 8, 4, 12]
-animals = ['cat']
+animals = ['cat', 'fox', 'dog', 'cow', 'horse']
+
+# следующие 2 строки дают идентичный результат
+numbers = sorted(numbers)    
+numbers.sort()              
+
+print(sorted(numbers))
+print(sorted(numbers, reverse=True))   # сортировка в обратном порядке
+print(sorted(animals))
+print(sorted(animals, reverse=True))   
+```
+Вывод:
+```bash
+-1 0 1 3 4 8 12
+12 8 4 3 1 0 -1
+cat cow dog horse fox
+fox horse dog cow cat
+```
+
+Для сортировки сложных списков (например, списков *кортежей*) можно задать сортировочную функцию через синтаксис **лямбды**:
+```python
+students = [('Max', 20), ('Sasha', 19), ('Nick', 21), ('Nikita', 20)]
+
+# отсортируем по имени
+print(sorted(students, key=lambda x: x[0]))
+
+# по возрасту
+print(sorted(students, key=lambda x: x[1]))
+
+# по возрасту в обратном порядке
+print(sorted(students, key=lambda x: x[1], reverse=True))
+```
+Вывод:
+```bash
+[('Max', 20), ('Nick', 21), ('Nikita', 20), ('Sasha', 19)] 
+[('Sasha', 19), ('Max', 20), ('Nikita', 20), ('Nick', 21)]
+[('Nick', 21), ('Nikita', 20), ('Max', 20) , 'Sasha', 19)]
 ```

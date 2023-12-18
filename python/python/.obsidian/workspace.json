@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basics/lists.md",
+                "file": "basics/dictionaries.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basics/lists.md",
+                "file": "basics/dictionaries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basics/lists.md",
+                "file": "basics/dictionaries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basics/lists.md"
+                "file": "basics/dictionaries.md"
               }
             }
           }
@@ -148,7 +148,11 @@
   },
   "active": "c77fb9f812904667",
   "lastOpenFiles": [
+    "basics/basic-types.md",
     "common-principles.md",
+    "basics/dictionaries.md",
+    "basics/loops.md",
+    "basics/lists.md",
     "advanced/tuples.md",
     "pandas/introduction.md",
     "pandas",
@@ -156,14 +160,10 @@
     "advanced/regex.md",
     "advanced/lambdas.md",
     "advanced",
-    "basics/dictionaries.md",
     "basics/functions.md",
-    "basics/loops.md",
     "basics/conditions-and-booleans.md",
     "basics/strings.md",
-    "basics/lists.md",
     "basics/variables.md",
-    "basics/basic-types.md",
     "().md",
     "basics"
   ]
