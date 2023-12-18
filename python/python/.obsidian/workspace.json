@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1fecd9d1cd2144c6",
+        "id": "f3c266097971b3de",
         "type": "tabs",
         "children": [
           {
-            "id": "16983e7627413b4f",
+            "id": "c77fb9f812904667",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ea4ff72a4e8beefd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "basics/functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basics/functions.md",
+                "file": "common-principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basics/functions.md",
+                "file": "common-principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basics/functions.md"
+                "file": "common-principles.md"
               }
             }
           }
@@ -159,9 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea4ff72a4e8beefd",
+  "active": "c77fb9f812904667",
   "lastOpenFiles": [
+    "advanced/tuples.md",
     "common-principles.md",
+    "pandas/introduction.md",
+    "pandas",
+    "advanced/sets.md",
+    "advanced/regex.md",
+    "advanced/lambdas.md",
+    "advanced",
+    "basics/dictionaries.md",
     "basics/functions.md",
     "basics/loops.md",
     "basics/conditions-and-booleans.md",
