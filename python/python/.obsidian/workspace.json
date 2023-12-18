@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "common-principles.md",
+                "file": "basics/lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "common-principles.md",
+                "file": "basics/lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "common-principles.md",
+                "file": "basics/lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "common-principles.md"
+                "file": "basics/lists.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "c77fb9f812904667",
   "lastOpenFiles": [
-    "advanced/tuples.md",
     "common-principles.md",
+    "advanced/tuples.md",
     "pandas/introduction.md",
     "pandas",
     "advanced/sets.md",

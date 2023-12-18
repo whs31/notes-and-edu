@@ -103,3 +103,89 @@ print(numbers[::2])     # выведет элементы с первого по
 print(numbers[::-1])    # выведет элементы с первого по последний в обратном порядке:
                         # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
+
+###### Развернуть список наоборот:
+Для этого можно использовать синтаксис `slice`, метод `reverse()` или свободную функцию `reversed()`. Все три примера ниже дадут одинаковый вывод:
+```python
+nums = [1, 2, 3, 4, 5]
+
+a = nums[::-1]
+b = list(reversed(nums))
+nums.reverse()
+
+print(a)
+print(b)
+print(nums)
+```
+Вывод:
+```bash
+[5, 4, 3, 2, 1]
+[5, 4, 3, 2, 1]
+[5, 4, 3, 2, 1]
+```
+
+###### Добавление элемента в список:
+Для добавления элемента в конец списка используется метод `append()`. Для вставки элемента в произвольный индекс - метод `insert()`:
+```python
+animals = list()             # []
+
+animals.append('cat')        # ['cat']
+animals.append('fox')        # ['cat', 'fox']
+
+animals.insert(1, 'dog')     # ['cat', 'dog', 'fox']
+animals.insert(0, 'cow')     # ['cow', 'cat', 'dog', 'fox']
+```
+
+###### Удаление элемента из списка:
+Для этого есть два метода:
+- `remove(x)` - удалит первый элемент, имеющий значение `x`
+- `pop(i)` - удалит элемент с индексом `i`
+Пример:
+```python
+names = ['Max', 'Sasha', 'Vova', 'Alexa', 'Nikita', 'John', 'Charles']
+
+# удалим все имена, не заканчивающиеся на `a`
+ends_not_with_a = list()
+for name in names:
+	if not name.endswith('a'):
+		ends_not_with_a.append(name)
+for name in ends_not_with_a:
+	names.remove(name)
+print(names) # ['Sasha', 'Vova', 'Alexa', 'Nikita']
+
+# удалим последние три элемента
+for i in range(3):
+	names.pop(len(names) - 3)
+print(names) # ['Alexa']
+
+# преобразуем одиночный список в строку
+name = ''.join(names) # это идиоматический способ преобразования списка в строку
+print(names) # Alexa
+```
+Вывод программы:
+```bash
+['Sasha', 'Vova', 'Alexa', 'Nikita']
+['Alexa']
+Alexa
+```
+
+###### Очистка списка:
+По аналогии с удалением отдельного элемента, список можно очистить целиком с использованием метода `clear()`
+```python
+names = ['Max', 'Sasha', 'Vova', 'Alexa', 'Nikita', 'John', 'Charles']
+
+if 'Max' in names:
+	names.clear()
+print(names)
+```
+Вывод:
+```bash
+[]
+```
+
+###### Сортировка списка
+Для сортировки можно использовать функцию `sorted()` и метод `sort()`. Обе этих функции ведут себя одинаково - числа сортируются по возрастанию, строки - по алфавиту:
+```python
+numbers = [3, 1, -1, 0, 8, 4, 12]
+animals = ['cat']
+```
