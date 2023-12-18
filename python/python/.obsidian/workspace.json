@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basics/strings.md",
+                "file": "common-principles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea4ff72a4e8beefd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basics/functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basics/strings.md",
+                "file": "basics/functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basics/strings.md",
+                "file": "basics/functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basics/strings.md"
+                "file": "basics/functions.md"
               }
             }
           }
@@ -146,13 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16983e7627413b4f",
+  "active": "ea4ff72a4e8beefd",
   "lastOpenFiles": [
     "common-principles.md",
-    "basics/variables.md",
-    "basics/lists.md",
-    "basics/basic-types.md",
+    "basics/functions.md",
+    "basics/loops.md",
+    "basics/conditions-and-booleans.md",
     "basics/strings.md",
+    "basics/lists.md",
+    "basics/variables.md",
+    "basics/basic-types.md",
     "().md",
     "basics"
   ]

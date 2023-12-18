@@ -4,3 +4,6 @@
 - [**Переменные**](basics/variables.md)
 - [**Списки**](basics/lists.md)
 - [**Строки и форматирование**](basics/strings.md)
+- [**Условия и булева алгебра**](basics/conditions-and-booleans.md)
+- [**Циклы**](basics/loops.md)
+- [**Функции**](basics/functions.md)

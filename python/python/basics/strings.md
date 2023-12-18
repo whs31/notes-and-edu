@@ -80,3 +80,23 @@ print(text.split(";! "))
 ```bash
 ['drifting', 'in', 'the', 'ocean', 'all', 'alone']
 ```
+
+###### Подсчитать количество символов в строке
+По аналогии со списком для этого можно использовать метод `count(...)`:
+```python
+txt = "Hello world!"
+
+print(txt.count("l")) # выведет 3
+print(txt.count("q")) # выведет 0
+```
+
+Частный случай: содержится ли определенный символ в строке:
+```python 
+txt = "Hello world"
+
+print("l" in txt)     # выведет True
+print("q" in txt)     # выведет False
+
+if "l" in txt:
+	print(f"{txt} contains symbol l")   # выведет `Hello world contains symbol l`
+```
