@@ -39,3 +39,4 @@ run-msbuild.bat
 fmt.pc
 
 credentials.md
+#credentials.txt
