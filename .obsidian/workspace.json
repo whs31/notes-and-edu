@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scientific-graphics-spring-2024/index.md",
+                "file": "programming-workshop-spring-2024/labs/1/Лабораторная работа 1.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "62afe1997e878fd9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scientific-graphics-spring-2024/index.md",
+                "file": "programming-workshop-spring-2024/labs/1/Лабораторная работа 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scientific-graphics-spring-2024/index.md",
+                "file": "programming-workshop-spring-2024/labs/1/Лабораторная работа 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scientific-graphics-spring-2024/index.md"
+                "file": "programming-workshop-spring-2024/labs/1/Лабораторная работа 1.md"
               }
             }
           }
@@ -148,20 +156,24 @@
   },
   "active": "d372bb9b16733dc4",
   "lastOpenFiles": [
-    "scientific-graphics-spring-2024/lab3/msoDFC7.tmp",
-    "scientific-graphics-spring-2024/lab3/msoDDD2.tmp",
-    "scientific-graphics-spring-2024/lab3/~WRL0003.tmp",
-    "scientific-graphics-spring-2024/lab3/~WRD0002.tmp",
-    "scientific-graphics-spring-2024/lab3/~WRL0001.tmp",
-    "scientific-graphics-spring-2024/lab3/~WRD0000.tmp",
-    "scientific-graphics-spring-2024/lab3/~$1_РязанцевДЛ.odt",
-    "scientific-graphics-spring-2024/lab3/3_1_РязанцевДЛ.m",
-    "scientific-graphics-spring-2024/lab3/3_1_РязанцевДЛ.sciprj",
-    "scientific-graphics-spring-2024/lab3/ё1.sciprj",
-    "scientific-graphics-spring-2024/lab3/ё1.sciprj.new",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/CMakeFiles/lab1.dir/main.cc.obj.d",
+    "programming-workshop-spring-2024/labs/1/main.cc~",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/lab1.exe",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/CMakeFiles/lab1.dir/main.cc.obj",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/Testing/Temporary/LastTest.log",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/Testing/Temporary",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/Testing",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/CMakeCache.txt.tmp56a2f",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/CMakeFiles/lab1.dir",
+    "programming-workshop-spring-2024/labs/1/cmake-build-debug/build.ninja.tmp3bb3d",
+    "programming-workshop-spring-2024/labs/1/main.cc",
+    "programming-workshop-spring-2024/Практикум по программированию.md",
+    "programming-workshop-spring-2024/labs/1/Лабораторная работа 1.md",
+    "index.md",
+    "scientific-graphics-spring-2024/index.md",
+    "programming-workshop-spring-2024/overview.md",
     "gameplan.md",
     "scientific-graphics-spring-2024/Untitled.md",
-    "scientific-graphics-spring-2024/index.md",
     "programming-workshop-spring-2024/gameplan.md",
     "hm-fall-2023/overview.md",
     "hm-fall-2023/solutions.md",
