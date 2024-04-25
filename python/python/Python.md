@@ -1,3 +1,9 @@
+---
+title: Python
+tags:
+  - python
+---
+
 # Оглавление 
 #### Основы языка
 - **[Простые типы данных](basics/basic-types.md)**
@@ -8,11 +14,3 @@
 - [**Циклы**](basics/loops.md)
 - [**Функции**](basics/functions.md)
 - [**Словари**](basics/dictionaries.md)
-#### Продвинутые техники
-- [**Форматирование текста**](advanced/formatting.md)
-- [**Лямбда-функции**](advanced/lambdas.md)
-- [**Регулярные выражения**](advanced/regex.md)
-- [**Множества**](advanced/sets.md)
-- [**Кортежи**](advanced/tuples.md)
-#### Pandas
-- [**Введение**](pandas/introduction.md)

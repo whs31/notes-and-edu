@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8d1edb33cec45dca",
+        "id": "846874a5dc17a9f7",
         "type": "tabs",
         "children": [
           {
-            "id": "489698cd53b15533",
+            "id": "facfd8d5a8977c8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming-workshop-spring-2024/labs/Лабораторная работа 2.md",
+                "file": "programming-workshop-spring-2024/labs/Лабораторная работа 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming-workshop-spring-2024/labs/Лабораторная работа 2.md",
+                "file": "programming-workshop-spring-2024/labs/Лабораторная работа 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming-workshop-spring-2024/labs/Лабораторная работа 2.md",
+                "file": "programming-workshop-spring-2024/labs/Лабораторная работа 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming-workshop-spring-2024/labs/Лабораторная работа 2.md"
+                "file": "programming-workshop-spring-2024/labs/Лабораторная работа 3.md"
               }
             }
           }
@@ -146,20 +146,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "489698cd53b15533",
+  "active": "facfd8d5a8977c8e",
   "lastOpenFiles": [
-    "programming-workshop-spring-2024/labs/~WRL2532.tmp",
-    "programming-workshop-spring-2024/labs/~WRD2525.tmp",
-    "programming-workshop-spring-2024/labs/~WRL3335.tmp",
-    "programming-workshop-spring-2024/labs/~WRD3296.tmp",
-    "programming-workshop-spring-2024/labs/~WRL1476.tmp",
-    "programming-workshop-spring-2024/labs/~WRD1472.tmp",
-    "programming-workshop-spring-2024/labs/~WRL0570.tmp",
-    "programming-workshop-spring-2024/labs/~WRD0558.tmp",
-    "programming-workshop-spring-2024/labs/~WRL0242.tmp",
-    "programming-workshop-spring-2024/labs/~WRD0231.tmp",
-    "programming-workshop-spring-2024/labs/2/cmake-build-debug/libstdc++-6.dll",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/CMakeFiles/lab3.dir/main.cc.obj.d",
+    "programming-workshop-spring-2024/labs/3/main.cc~",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/libstdc++-6.dll",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/lab3.exe",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/CMakeFiles/lab3.dir/main.cc.obj",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/CMakeCache.txt.tmp2870c",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/build.ninja.tmpb95ee",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/CMakeCache.txt.tmpfe85a",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/CMakeCache.txt.tmpf4d80",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/build.ninja",
+    "programming-workshop-spring-2024/labs/3/cmake-build-debug/CMakeFiles/rules.ninja",
+    "python/python/Python.md",
     "index.md",
+    "python/python/advanced/sets.md",
+    "python/python/advanced/regex.md",
+    "python/python/advanced/lambdas.md",
+    "python/python/advanced/formatting.md",
+    "python/python/basics/dictionaries.md",
+    "python/python/basics/functions.md",
+    "python/python/basics/loops.md",
+    "python/python/basics/conditions-and-booleans.md",
+    "python/python/basics/strings.md",
+    "python/python/basics/lists.md",
+    "python/python/basics/variables.md",
+    "python/python/basics/basic-types.md",
+    "programming-workshop-spring-2024/Практикум по программированию.md",
+    "programming-workshop-spring-2024/labs/Лабораторная работа 3.md",
+    "programming-workshop-spring-2024/labs/Лабораторная работа 2.md",
+    "programming-workshop-spring-2024/labs/Лабораторная работа 2 - Copy.md",
     "programming-workshop-spring-2024/labs/Лабораторная работа 1.md",
     "ddmp-fall-2023/ЦУиМП.md",
     "ddmp-fall-2023/lab-admission.md",
@@ -167,16 +184,7 @@
     "hm-fall-2023/overview.md",
     "hm-fall-2023/solutions.md",
     "ddmp-fall-2023/Untitled.canvas",
-    "programming-workshop-spring-2024/Практикум по программированию.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 2.md",
     "scientific-graphics-spring-2024/index.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 1 - Copy.md",
-    "labs/Лабораторная работа 2.md",
-    "programming-workshop-spring-2024/labs/1/Лабораторная работа 1.md",
-    "programming-workshop-spring-2024/overview.md",
-    "gameplan.md",
-    "scientific-graphics-spring-2024/Untitled.md",
-    "programming-workshop-spring-2024/gameplan.md",
     "ddmp-fall-2023/vivado/lab-1/schematic.png"
   ]
 }
