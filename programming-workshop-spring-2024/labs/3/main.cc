@@ -62,6 +62,11 @@ auto main() -> int
     return joined;
   }();
 
+  if(path.extension() != ".txt") {
+    cerr << "File must have .txt extension" << endl;
+    std::exit(1);
+  }
+
   auto const text = [](fs::path const& filepath) -> string {
     using std::ifstream;
     using std::istreambuf_iterator;
