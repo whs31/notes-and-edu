@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "english-spring-2024/unit-3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "english-spring-2024/unit-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "english-spring-2024/unit-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "english-spring-2024/unit-3.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "abcd101d5909e762",
   "lastOpenFiles": [
+    "index.md",
+    "english-spring-2024/unit-3.md",
+    "english-spring-2024",
+    "Untitled.md",
     "programming-workshop-spring-2024/labs/Лабораторная работа 4.md",
     "programming-workshop-spring-2024/labs/docx/Отчет по лаб 1 Рязанцев ДЛ.pdf",
     "programming-workshop-spring-2024/labs/docx/Отчет по лаб 2 Рязанцев ДЛ.pdf",
@@ -158,7 +162,6 @@
     "programming-workshop-spring-2024/labs/docx/Отчет по лаб 4 Рязанцев ДЛ.pdf",
     "programming-workshop-spring-2024/labs/docx/Отчет по лаб 4 Рязанцев ДЛ.docx",
     "programming-workshop-spring-2024/labs/docx/Отчет по лаб 3 Рязанцев ДЛ.docx",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 2 Рязанцев ДЛ.docx",
     "programming-workshop-spring-2024/labs/Лабораторная работа 4 — копия.md",
     "hm-fall-2023/overview.md",
     "hm-fall-2023/solutions.md",
@@ -167,7 +170,6 @@
     "programming-workshop-spring-2024/labs/Лабораторная работа 1.md",
     "scientific-graphics-spring-2024/index.md",
     "programming-workshop-spring-2024/Практикум по программированию.md",
-    "index.md",
     "python/python/basics/variables.md",
     "python/python/Python.md",
     "python/python/basics/basic-types.md",
@@ -182,7 +184,6 @@
     "python/python/advanced/lambdas.md",
     "python/python/advanced/formatting.md",
     "python/python/basics/dictionaries.md",
-    "python/python/basics/functions.md",
     "ddmp-fall-2023/Untitled.canvas",
     "ddmp-fall-2023/vivado/lab-1/schematic.png"
   ]
