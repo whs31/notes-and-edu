@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68337ad9ca1e9163",
+        "id": "736e24fdad93ecb0",
         "type": "tabs",
         "children": [
           {
-            "id": "abcd101d5909e762",
+            "id": "44b6d360f21b2559",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "english-spring-2024/unit-3.md",
+                "file": "calculus-spring-2024/Ответы на экзамен.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "english-spring-2024/unit-3.md",
+                "file": "calculus-spring-2024/Ответы на экзамен.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "english-spring-2024/unit-3.md",
+                "file": "calculus-spring-2024/Ответы на экзамен.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "english-spring-2024/unit-3.md"
+                "file": "calculus-spring-2024/Ответы на экзамен.md"
               }
             }
           }
@@ -146,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "abcd101d5909e762",
+  "active": "44b6d360f21b2559",
   "lastOpenFiles": [
     "index.md",
     "english-spring-2024/unit-3.md",
+    "calculus-spring-2024/Ответы на экзамен.md",
     "english-spring-2024",
     "Untitled.md",
     "programming-workshop-spring-2024/labs/Лабораторная работа 4.md",
@@ -183,7 +184,6 @@
     "python/python/advanced/regex.md",
     "python/python/advanced/lambdas.md",
     "python/python/advanced/formatting.md",
-    "python/python/basics/dictionaries.md",
     "ddmp-fall-2023/Untitled.canvas",
     "ddmp-fall-2023/vivado/lab-1/schematic.png"
   ]

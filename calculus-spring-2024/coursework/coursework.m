@@ -43,25 +43,30 @@ y_2h = adams_bashforth_1(2 * h);
 y_halfh = adams_bashforth_1(0.5 * h);
 [t_rk, y_rk] = runge_kutta();
 y_analytic = dsolve('12 * D3y + 53.2 * D2y + 4.4 * Dy + y = 10', 'y(0) = 0', 'Dy(0) = 0', 'D2y(0) = 0', 't');
-tvec = linspace(t_start, t_end, n);
 y_fn = matlabFunction(y_analytic);
-y_a = y_fn(tvec);
 
-diff_h = y_h - interp1(tvec, y_a, t_start:h:t_end);
-diff_2h = y_2h - interp1(tvec, y_a, t_start:h * 2:t_end);
-diff_halfh = y_halfh - interp1(tvec, y_a, t_start:h / 2:t_end);
-diff_rk = y_rk - interp1(tvec, y_a, t_rk);
+diff_h = y_h - y_fn(t_start:h:t_end);
+diff_2h = y_2h - y_fn(t_start:h * 2:t_end);
+diff_halfh = y_halfh - y_fn(t_start:h / 2:t_end);
+diff_rk = y_rk - y_fn(t_rk);
+%diff_h = y_h - interp1(tvec, y_a, t_start:h:t_end);
+%diff_2h = y_2h - interp1(tvec, y_a, t_start:h * 2:t_end);
+%diff_halfh = y_halfh - interp1(tvec, y_a, t_start:h / 2:t_end);
+%diff_rk = y_rk - interp1(tvec, y_a, t_rk);
 
 figure(4);
 subplot(1, 1, 1);
-plot(t_start:h * 2:t_end, diff_2h, 'r-', 'LineWidth', 2);
+plot(t_start:h:t_end, diff_h, 'r', 'LineWidth', 2);
 hold on;
-plot(t_start:h / 2:t_end, diff_halfh, 'b--', 'LineWidth', 2);
-plot(t_rk, diff_rk, 'g-.', 'LineWidth', 2);
-plot(t_start:h:t_end, diff_h, 'y-', 'LineWidth', 2);
+plot(t_start:h * 2:t_end, diff_2h, 'b--', 'LineWidth', 2);
+hold on;
+plot(t_start:h / 2:t_end, diff_halfh, 'cyan--.', 'LineWidth', 2);
+hold on;
+plot(t_rk, diff_rk, 'g-', 'LineWidth', 2);
+ax = gca; ax.FontWeight = 'bold'; ax.FontSize = 22; ax.GridAlpha = 0.35;
 hold off;
 title("Сравнение относительно аналитического решения");
-legend('Адамс-Башфорт 1-го порядка, h = 0.4', 'Адамс-Башфорт 1-го порядка, h = 0.1', 'Рунге-Кутты', 'Адамс-Башфорт 1-го порядка, h = 0.2');
+legend('Адамс-Башфорт 1-го порядка, h = 0.2', 'Адамс-Башфорт 1-го порядка, h = 0.4', 'Адамс-Башфорт 1-го порядка, h = 0.1', 'Рунге-Кутты');
 grid on;
 
 
@@ -99,7 +104,7 @@ function res = adams_bashforth_1(h)
     grid on;
     %disp("[2] y(t) = " + string(y3(end)));
 
-    res = y1(end);
+    res = y1;
 end
 
 function [t, res] = runge_kutta()
@@ -122,7 +127,7 @@ function [t, res] = runge_kutta()
     %disp('The solution y(t), y''(t), and y''''(t) at the specified time points:');
     %disp(table(t, y(:,1), y(:,2), y(:,3), 'VariableNames', {'Time', 'y', 'dy/dt', 'd2y/dt2'}));
 
-    res = y(end, 1);
+    res = y(:, 1);
     
     function dydt = odefunction(t, y)
         dydt = zeros(3, 1);
