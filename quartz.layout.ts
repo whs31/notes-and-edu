@@ -41,6 +41,12 @@ export const defaultContentPageLayout: PageLayout = {
             if (node.displayName.includes("fall") || node.displayName.includes("осень")) {
               node.displayName = node.displayName.replace("fall", "🍂").replace("осень", "🍂")
             }
+            if (node.displayName.includes("Высшая") || node.displayName.includes("высшая")) {
+              node.displayName = node.displayName.replace("Высшая", "Высш.").replace("высшая", "высш.")
+            }
+            if (node.displayName.includes("Иностранный") || node.displayName.includes("иностранный")) {
+              node.displayName = node.displayName.replace("Иностранный", "Ин.").replace("иностранный", "ин.")
+            }
             node.displayName = "📁 " + node.displayName
           }
         }
