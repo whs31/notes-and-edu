@@ -3,6 +3,7 @@ title: all_of
 tags:
   - cxx
 ---
+[![](https://img.shields.io/badge/cppreference-classic-blue?style=for-the-badge&logo=c%2B%2B&labelColor=blue&color=teal)](https://en.cppreference.com/w/cpp/algorithm/all_any_none_of)[![](https://img.shields.io/badge/cppreference-niebloid-blue?style=for-the-badge&logo=c%2B%2B&labelColor=blue&color=white)](https://en.cppreference.com/w/cpp/algorithm/ranges/all_any_none_of)
 ### Определения
 #### Классический алгоритм
 ```cpp
@@ -16,8 +17,6 @@ constexpr auto all_of(InputIt first, InputIt last, UnaryPred p) -> bool;
 ```cpp
 #include <algorithm>
 ```
-
-[![](https://img.shields.io/badge/cppreference-blue?style=for-the-badge&logo=c%2B%2B)](https://en.cppreference.com/w/cpp/algorithm/all_any_none_of)
 #### Ниблоид
 ```cpp
 template <
@@ -44,21 +43,15 @@ constexpr auto ranges::all_of(R&& r, Pred pred, Proj proj = {}) -> bool;
 ```cpp
 #include <algorithm>
 ```
-
-[![](https://img.shields.io/badge/cppreference-blue?style=for-the-badge&logo=c%2B%2B)](https://en.cppreference.com/w/cpp/algorithm/ranges/all_any_none_of)
-
-### Подробности
-#### Возвращаемое значение
+### Возвращаемое значение
 `true`, если предикат вернул `true` для каждого элемента в исследуемом диапазоне.
-
-#### Временная сложность
+### Временная сложность
 $$O(N)$$
 > Как максимум, `std::distance(first, last)`.
-
-#### Исключения
+### Исключения
 Не выбрасывает исключений.
 
-#### Пример
+### Пример
 ```cpp
 #include <algorithm>
 #include <iostream>
@@ -83,10 +76,43 @@ auto main() -> int {
 }
 ```
 
-#### Возможная реализация
+### Возможная реализация
+#### Классический алгоритм
 ```cpp
 template <typename InputIt, typename UnaryPred>
 constexpr auto all_of(InputIt first, InputIt last, UnaryPred p) -> bool {
   return std::find_if_not(first, last, p) == last;
 }
+```
+
+#### Ниблоид
+```cpp
+struct all_of_fn
+{
+  template <
+    std::input_iterator I,
+    std::sentinel_for<I> S,
+    typename Proj = std::identity,
+    std::indirect_unary_predicate<std::projected<I, Proj>> Pred
+  >
+  constexpr auto operator()(I first, S last, Pred pred, Proj proj = {}) const -> bool {
+    return std::ranges::find_if_not(first, last, std::ref(pred), std::ref(proj)) == last;
+  }
+
+  template <
+    std::ranges::input_range R,
+    typename Proj = std::identity,
+    std::indirect_unary_predicate<std::projected<I, Proj>> Pred
+  >
+  constexpr auto operator()(R&& r, Pred pred, Proj proj = {}) const -> bool {
+    return this->operator()(
+      std::ranges::begin(r),
+      std::ranges::end(r),
+      std::ref(pred),
+      std::ref(proj)
+    );
+  }
+};
+
+inline constexpr all_of_fn all_of;
 ```
