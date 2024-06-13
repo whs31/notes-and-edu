@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "C++/STL/Алгоритмы/all_of.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "C++/STL/Алгоритмы/all_of.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "C++/STL/Алгоритмы/all_of.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "C++/STL/Алгоритмы/all_of.md"
               }
             }
           }
@@ -148,9 +148,14 @@
   },
   "active": "88a8d4901effdf0f",
   "lastOpenFiles": [
+    "C++/STL/STL.md",
+    "C++/STL/Алгоритмы/all_of.md",
+    "C++/Заметки по C++.md",
+    "C++/STL/Алгоритмы",
+    "C++/STL",
+    "index.md",
     "Python/python/Python.md",
     "Научная графика (весна 2024)/Научная графика.md",
-    "index.md",
     "Высшая математика (весна 2023)/Высшая математика.md",
     "Выч. математика (весна 2024)/Ответы на экзамен.md",
     "ЦУиМП (осень 2023)/ЦУиМП.md",
@@ -163,8 +168,6 @@
     "package-lock.json",
     "package.json",
     "index.d.ts",
-    "globals.d.ts",
-    "Dockerfile",
     "quartz/static/og-image.png",
     "quartz/static/icon.png",
     "public/static/og-image.png",
@@ -189,8 +192,6 @@
     "Untitled.md",
     "ППП (весна 2024)/labs/Лабораторная работа 4.md",
     "programming-workshop-spring-2024/labs/Лабораторная работа 4 — копия.md",
-    "ППП (весна 2024)/labs/Лабораторная работа 3.md",
-    "ППП (весна 2024)/labs/Лабораторная работа 2.md",
     "ddmp-fall-2023/Untitled.canvas",
     "ЦУиМП (осень 2023)/vivado/lab-1/schematic.png"
   ]
