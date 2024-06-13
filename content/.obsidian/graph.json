@@ -55,6 +55,13 @@
         "a": 1,
         "rgb": 7557300
       }
+    },
+    {
+      "query": "path:C++  ",
+      "color": {
+        "a": 1,
+        "rgb": 46079
+      }
     }
   ],
   "collapse-display": true,
@@ -63,10 +70,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.411458333333333,
-  "repelStrength": 10,
+  "centerStrength": 0.609375,
+  "repelStrength": 16.3541666666667,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6316046762907607,
-  "close": true
+  "scale": 0.6316046762907662,
+  "close": false
 }

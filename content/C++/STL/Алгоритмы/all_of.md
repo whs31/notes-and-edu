@@ -4,6 +4,9 @@ tags:
   - cxx
 ---
 [![](https://img.shields.io/badge/cppreference-classic-blue?style=for-the-badge&logo=c%2B%2B&labelColor=blue&color=teal)](https://en.cppreference.com/w/cpp/algorithm/all_any_none_of)[![](https://img.shields.io/badge/cppreference-niebloid-blue?style=for-the-badge&logo=c%2B%2B&labelColor=blue&color=white)](https://en.cppreference.com/w/cpp/algorithm/ranges/all_any_none_of)
+> [!important]
+> Рекомендуется использовать *ниблоид* из пространства имен `std::ranges`. 
+> См. *ranges*::**[[Ranges/all_of|all_of]]** 
 ### Определения
 #### Классический алгоритм
 ```cpp
