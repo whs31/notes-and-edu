@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c65436ccbf665136",
+        "id": "af0ff393a1832c26",
         "type": "tabs",
         "children": [
           {
-            "id": "27f22cfd32a74941",
+            "id": "88a8d4901effdf0f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           }
         ]
@@ -138,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27f22cfd32a74941",
+  "active": "88a8d4901effdf0f",
   "lastOpenFiles": [
+    "Высшая математика (весна 2023)/Высшая математика.md",
+    "Выч. математика (весна 2024)/Ответы на экзамен.md",
+    "ЦУиМП (осень 2023)/ЦУиМП.md",
+    "ППП (весна 2024)/Практикум по программированию.md",
+    "index.md",
     "content",
     "Новая папка",
     "tsconfig.json",
@@ -150,7 +163,6 @@
     "index.d.ts",
     "globals.d.ts",
     "Dockerfile",
-    "quartz/i18n/locales/zh-CN.ts",
     "quartz/static/og-image.png",
     "quartz/static/icon.png",
     "public/static/og-image.png",
@@ -159,7 +171,6 @@
     "public/quartz/static/icon.png",
     "public/docs/static/og-image.png",
     "public/docs/static/icon.png",
-    "index.md",
     "Научная графика (весна 2024)/Научная графика.md",
     "Python/python/basics/Переменные.md",
     "Python/python/basics/Строки и форматирование.md",
@@ -173,17 +184,13 @@
     "Высшая математика (весна 2023)/Вопросы к экзамену.md",
     "Высшая математика (весна 2023)/Ответы на вопросы к экзамену.md",
     "ЦУиМП (осень 2023)/Допуск к лабораторным работам.md",
-    "ЦУиМП (осень 2023)/ЦУиМП.md",
-    "Вычислительная математика (весна 2024)/Ответы на экзамен.md",
-    "Высшая математика (весна 2023)/Высшая математика.md",
     "Иностранный язык (весна 2024)/Монолог.md",
-    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 1.md",
-    "Практикум по программированию (весна 2024)/Практикум по программированию.md",
+    "ППП (весна 2024)/labs/Лабораторная работа 1.md",
     "Untitled.md",
-    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 4.md",
+    "ППП (весна 2024)/labs/Лабораторная работа 4.md",
     "programming-workshop-spring-2024/labs/Лабораторная работа 4 — копия.md",
-    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 3.md",
-    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 2.md",
+    "ППП (весна 2024)/labs/Лабораторная работа 3.md",
+    "ППП (весна 2024)/labs/Лабораторная работа 2.md",
     "ddmp-fall-2023/Untitled.canvas",
     "ЦУиМП (осень 2023)/vivado/lab-1/schematic.png"
   ]

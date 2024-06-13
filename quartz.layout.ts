@@ -34,6 +34,13 @@ export const defaultContentPageLayout: PageLayout = {
           if (node.file) {
             node.displayName = "📄 " + node.displayName
           } else {
+            // if node is a folder and contains string "spring" or "весна" replace it with "🍃"
+            if (node.displayName.includes("spring") || node.displayName.includes("весна")) {
+              node.displayName = node.displayName.replace("spring", "🍃").replace("весна", "🍃")
+            } 
+            if (node.displayName.includes("fall") || node.displayName.includes("осень")) {
+              node.displayName = node.displayName.replace("fall", "🍂").replace("осень", "🍂")
+            }
             node.displayName = "📁 " + node.displayName
           }
         }
