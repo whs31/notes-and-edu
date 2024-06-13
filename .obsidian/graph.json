@@ -5,75 +5,68 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:calculus-spring-2024  ",
+      "query": "path:\"Вычислительная математика (весна 2024)\"  ",
       "color": {
         "a": 1,
         "rgb": 5431504
       }
     },
     {
-      "query": "path:ddmp-fall-2023  ",
+      "query": "path:\"ЦУиМП (осень 2023)\"  ",
       "color": {
         "a": 1,
         "rgb": 6841694
       }
     },
     {
-      "query": "path:english-spring-2024  ",
+      "query": "path:\"Иностранный язык (весна 2024)\"  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:hm-fall-2023  ",
+      "query": "path:\"Высшая математика (весна 2023)\"  ",
       "color": {
         "a": 1,
         "rgb": 5402336
       }
     },
     {
-      "query": "path:programming-workshop-spring-2024  ",
+      "query": "path:\"Практикум по программированию (весна 2024)\"  ",
       "color": {
         "a": 1,
         "rgb": 7462994
       }
     },
     {
-      "query": "path:python  ",
+      "query": "path:Python  ",
       "color": {
         "a": 1,
         "rgb": 11796422
       }
     },
     {
-      "query": "path:scientific-graphics-spring-2024  ",
+      "query": "path:\"Научная графика (весна 2024)\"  ",
       "color": {
         "a": 1,
         "rgb": 7557300
       }
-    },
-    {
-      "query": "path:",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.130208333333333,
+  "centerStrength": 0.411458333333333,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.32133638605036247,
-  "close": false
+  "scale": 0.45050811767578963,
+  "close": true
 }

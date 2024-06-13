@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f3d8bc975d25e368",
+        "id": "c65436ccbf665136",
         "type": "tabs",
         "children": [
           {
-            "id": "0cb54fce80862cb6",
+            "id": "27f22cfd32a74941",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,17 +138,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0cb54fce80862cb6",
+  "active": "27f22cfd32a74941",
   "lastOpenFiles": [
-    "Вычислительная математика (весна 2024)/Ответы на экзамен.md",
     "index.md",
+    "Научная графика (весна 2024)/Научная графика.md",
+    "Python/python/basics/Переменные.md",
+    "Python/python/basics/Строки и форматирование.md",
+    "Python/python/basics/Циклы.md",
+    "Python/python/basics/Списки.md",
+    "Python/python/basics/Функции.md",
+    "Python/python/basics/Словари.md",
+    "Python/python/basics/Условия и булева алгебра.md",
+    "Python/python/basics/Типы данных.md",
+    "Python/python/Python.md",
+    "Высшая математика (весна 2023)/Вопросы к экзамену.md",
+    "Высшая математика (весна 2023)/Ответы на вопросы к экзамену.md",
+    "ЦУиМП (осень 2023)/Допуск к лабораторным работам.md",
+    "ЦУиМП (осень 2023)/ЦУиМП.md",
+    "Вычислительная математика (весна 2024)/Ответы на экзамен.md",
     "Высшая математика (весна 2023)/Высшая математика.md",
     "C++",
     "Иностранный язык (весна 2024)/Монолог.md",
     "Практикум по программированию (весна 2024)/labs/Лабораторная работа 1.md",
     "Практикум по программированию (весна 2024)/Практикум по программированию.md",
-    "ЦУиМП (осень 2023)/lab-admission.md",
-    "Научная графика (весна 2024)/index.md",
     "Иностранный язык (весна 2024)",
     "Untitled.md",
     "Практикум по программированию (весна 2024)/labs/Лабораторная работа 4.md",
@@ -169,20 +173,9 @@
     "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 4 Рязанцев ДЛ.pdf",
     "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 4 Рязанцев ДЛ.docx",
     "programming-workshop-spring-2024/labs/Лабораторная работа 4 — копия.md",
-    "Высшая математика (весна 2023)/overview.md",
-    "Высшая математика (весна 2023)/solutions.md",
-    "Python/python/basics/variables.md",
-    "Python/python/Python.md",
-    "Python/python/basics/basic-types.md",
-    "ЦУиМП (осень 2023)/ЦУиМП.md",
     "Практикум по программированию (весна 2024)/labs/Лабораторная работа 3.md",
     "Практикум по программированию (весна 2024)/labs/Лабораторная работа 2.md",
     "Практикум по программированию (весна 2024)/labs/Лабораторная работа 5.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 5 — копия.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 3 - Copy.md",
-    "python/python/advanced/sets.md",
-    "python/python/advanced/regex.md",
-    "python/python/advanced/lambdas.md",
     "ddmp-fall-2023/Untitled.canvas",
     "ЦУиМП (осень 2023)/vivado/lab-1/schematic.png"
   ]
