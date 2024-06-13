@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e9612eb3eb8d5b64",
+        "id": "f3d8bc975d25e368",
         "type": "tabs",
         "children": [
           {
-            "id": "def59fe6dc018123",
+            "id": "0cb54fce80862cb6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           }
         ]
@@ -138,45 +146,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "def59fe6dc018123",
+  "active": "0cb54fce80862cb6",
   "lastOpenFiles": [
+    "Вычислительная математика (весна 2024)/Ответы на экзамен.md",
     "index.md",
-    "english-spring-2024/Монолог.md",
-    "calculus-spring-2024/Ответы на экзамен.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 1.md",
-    "programming-workshop-spring-2024/Практикум по программированию.md",
-    "ddmp-fall-2023/lab-admission.md",
-    "scientific-graphics-spring-2024/index.md",
-    "english-spring-2024",
+    "Высшая математика (весна 2023)/Высшая математика.md",
+    "C++",
+    "Иностранный язык (весна 2024)/Монолог.md",
+    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 1.md",
+    "Практикум по программированию (весна 2024)/Практикум по программированию.md",
+    "ЦУиМП (осень 2023)/lab-admission.md",
+    "Научная графика (весна 2024)/index.md",
+    "Иностранный язык (весна 2024)",
     "Untitled.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 4.md",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 1 Рязанцев ДЛ.pdf",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 2 Рязанцев ДЛ.pdf",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 3 Рязанцев ДЛ.pdf",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 5 Рязанцев ДЛ.pdf",
-    "programming-workshop-spring-2024/labs/docx/Отчет по Git Рязанцев ДЛ.pdf",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 5 Рязанцев ДЛ.docx",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 4 Рязанцев ДЛ.pdf",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 4 Рязанцев ДЛ.docx",
-    "programming-workshop-spring-2024/labs/docx/Отчет по лаб 3 Рязанцев ДЛ.docx",
+    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 4.md",
+    "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 1 Рязанцев ДЛ.pdf",
+    "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 2 Рязанцев ДЛ.pdf",
+    "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 3 Рязанцев ДЛ.pdf",
+    "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 5 Рязанцев ДЛ.pdf",
+    "Практикум по программированию (весна 2024)/labs/docx/Отчет по Git Рязанцев ДЛ.pdf",
+    "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 5 Рязанцев ДЛ.docx",
+    "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 4 Рязанцев ДЛ.pdf",
+    "Практикум по программированию (весна 2024)/labs/docx/Отчет по лаб 4 Рязанцев ДЛ.docx",
     "programming-workshop-spring-2024/labs/Лабораторная работа 4 — копия.md",
-    "hm-fall-2023/overview.md",
-    "hm-fall-2023/solutions.md",
-    "hm-fall-2023/Высшая математика.md",
-    "python/python/basics/variables.md",
-    "python/python/Python.md",
-    "python/python/basics/basic-types.md",
-    "ddmp-fall-2023/ЦУиМП.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 3.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 2.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 5.md",
+    "Высшая математика (весна 2023)/overview.md",
+    "Высшая математика (весна 2023)/solutions.md",
+    "Python/python/basics/variables.md",
+    "Python/python/Python.md",
+    "Python/python/basics/basic-types.md",
+    "ЦУиМП (осень 2023)/ЦУиМП.md",
+    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 3.md",
+    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 2.md",
+    "Практикум по программированию (весна 2024)/labs/Лабораторная работа 5.md",
     "programming-workshop-spring-2024/labs/Лабораторная работа 5 — копия.md",
     "programming-workshop-spring-2024/labs/Лабораторная работа 3 - Copy.md",
     "python/python/advanced/sets.md",
     "python/python/advanced/regex.md",
     "python/python/advanced/lambdas.md",
-    "python/python/advanced/formatting.md",
     "ddmp-fall-2023/Untitled.canvas",
-    "ddmp-fall-2023/vivado/lab-1/schematic.png"
+    "ЦУиМП (осень 2023)/vivado/lab-1/schematic.png"
   ]
 }
