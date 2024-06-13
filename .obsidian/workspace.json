@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "736e24fdad93ecb0",
+        "id": "e9612eb3eb8d5b64",
         "type": "tabs",
         "children": [
           {
-            "id": "44b6d360f21b2559",
+            "id": "def59fe6dc018123",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calculus-spring-2024/Ответы на экзамен.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calculus-spring-2024/Ответы на экзамен.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calculus-spring-2024/Ответы на экзамен.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "calculus-spring-2024/Ответы на экзамен.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,11 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44b6d360f21b2559",
+  "active": "def59fe6dc018123",
   "lastOpenFiles": [
     "index.md",
-    "english-spring-2024/unit-3.md",
+    "english-spring-2024/Монолог.md",
     "calculus-spring-2024/Ответы на экзамен.md",
+    "programming-workshop-spring-2024/labs/Лабораторная работа 1.md",
+    "programming-workshop-spring-2024/Практикум по программированию.md",
+    "ddmp-fall-2023/lab-admission.md",
+    "scientific-graphics-spring-2024/index.md",
     "english-spring-2024",
     "Untitled.md",
     "programming-workshop-spring-2024/labs/Лабораторная работа 4.md",
@@ -167,10 +163,6 @@
     "hm-fall-2023/overview.md",
     "hm-fall-2023/solutions.md",
     "hm-fall-2023/Высшая математика.md",
-    "ddmp-fall-2023/lab-admission.md",
-    "programming-workshop-spring-2024/labs/Лабораторная работа 1.md",
-    "scientific-graphics-spring-2024/index.md",
-    "programming-workshop-spring-2024/Практикум по программированию.md",
     "python/python/basics/variables.md",
     "python/python/Python.md",
     "python/python/basics/basic-types.md",
