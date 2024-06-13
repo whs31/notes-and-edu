@@ -42,5 +42,5 @@ tags:
 #### [[ЦУиМП (осень 2023)/ЦУиМП]]
 
 ## Прочее
-#### [[Python/python/Python]]
+#### [[Python/Теория/Python|Python]]
 #### 
