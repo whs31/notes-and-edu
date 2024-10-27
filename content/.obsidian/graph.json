@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 46079
       }
+    },
+    {
+      "query": "path:\"Операционные системы (осень 2024)\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +81,6 @@
   "repelStrength": 16.3541666666667,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6316046762907662,
+  "scale": 0.4210697841938441,
   "close": false
 }

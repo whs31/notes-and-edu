@@ -11,8 +11,14 @@
             "id": "d532a7618ec2bc66",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Операционные системы (осень 2024)/Лабораторные работы/Лабораторная работа 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Лабораторная работа 2"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Операционные системы (осень 2024)/Лабораторные работы/Лабораторная работа 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Лабораторная работа 2"
             }
           },
           {
@@ -97,9 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Операционные системы (осень 2024)/Лабораторные работы/Лабораторная работа 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Лабораторная работа 2"
             }
           },
           {
@@ -110,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -118,7 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Операционные системы (осень 2024)/Лабораторные работы/Лабораторная работа 2.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Лабораторная работа 2"
             }
           }
         ]
@@ -140,14 +164,22 @@
   },
   "active": "d532a7618ec2bc66",
   "lastOpenFiles": [
+    "Операционные системы (осень 2024)/Лабораторные работы/Лабораторная работа 1.md",
+    "Операционные системы (осень 2024)/Операционные системы.md",
+    "ППП (весна 2024)/Практикум по программированию.md",
+    "Операционные системы (осень 2024)/Лабораторные работы/Лабораторная работа 2.md",
+    "Операционные системы (осень 2024)/Лабораторные работы/Untitled.md",
+    "ППП (весна 2024)/Лабораторные работы/Лабораторная работа 1.md",
+    "Операционные системы (осень 2024)/Лабораторные работы",
+    "index.md",
+    "t.me/yar8slav.md",
+    "t.me",
+    "Операционные системы (осень 2024)",
     "C++/STL/Ограничения типов (C++11)/Предикат.md",
     "C++/STL/Алгоритмы/all_of.md",
     "C++/STL/STL.md",
     "C++/STL/Ограничения типов (C++11)",
     "C++/Заметки по C++.md",
-    "ППП (весна 2024)/Лабораторные работы/Лабораторная работа 1.md",
-    "ППП (весна 2024)/Практикум по программированию.md",
-    "index.md",
     "C++/STL/Алгоритмы",
     "C++/STL",
     "Python/Теория/Python.md",
@@ -159,9 +191,6 @@
     "Новая папка",
     "tsconfig.json",
     "quartz.layout.ts",
-    "quartz.config.ts",
-    "package-lock.json",
-    "package.json",
     "quartz/static/og-image.png",
     "quartz/static/icon.png",
     "public/static/og-image.png",
