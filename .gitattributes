@@ -3,3 +3,5 @@
 *.xml linguist-detectable=true
 *.sh linguist-detectable=true
 *.md linguist-detectable=true
+
+quartz/** linguist-vendored
