@@ -1,0 +1,99 @@
+# Лабораторная работа No1
+# Рязанцев Дмитрий
+# https://whs31.github.io/notes-and-edu/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-(%D0%BE%D1%81%D0%B5%D0%BD%D1%8C-2024)/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-1
+
+> cat /etc/os-release
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+> sudo apt install -y --no-install-recommends neofetch && neofetch --backend off
+whs31@whs31 
+----------- 
+OS: Kubuntu 24.04.1 LTS x86_64 
+Host: MS-7E26 1.0 
+Kernel: 6.8.0-47-generic 
+Uptime: 5 hours, 56 mins 
+Packages: 3801 (dpkg), 12 (snap) 
+Shell: zsh 5.9 
+Resolution: 1920x1080, 1920x1080 
+DE: Plasma 5.27.11 
+WM: KWin 
+Theme: [Plasma], Breeze [GTK2], Yaru [GTK3] 
+Icons: [Plasma], breeze-dark [GTK2/3] 
+Terminal: kitty 
+CPU: AMD Ryzen 5 7600 (12) @ 5.170GHz 
+GPU: NVIDIA Geforce RTX 3050 
+GPU: AMD ATI 10:00.0 Raphael
+Memory: 6090MiB / 62546MiB 
+
+> cd $HOME 
+> mkdir -pv students mentors 
+mkdir: created directory 'students'
+mkdir: created directory 'mentors'
+
+> touch students/students_list.txt mentors/mentors_list.txt
+> vim students/students_list.txt
+> vim mentors/mentors_list.txt
+> mv -v mentors/mentors_list.txt students/
+renamed 'mentors/mentors_list.txt' -> 'students/mentors_list.txt'
+
+> rm -rfv mentors
+removed directory 'mentors'
+
+> mv -v students students_and_mentors
+renamed 'students' -> 'students_and_mentors'
+
+> rm -rfv students_and_mentors
+removed 'students_and_mentors/students_list.txt'
+removed 'students_and_mentors/mentors_list.txt'
+removed directory 'students_and_mentors'
+
+
+>   ~ 
+> 17:23:47  ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\User/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\User/.ssh/id_rsa
+Your public key has been saved in C:\Users\User/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:gOzeYJvZiQ2UpXpyAp3MbFVtVjtLkthgKlAovFh9AVE user@WIN-TRRU3DEFTVC
+The key's randomart image is:
++---[RSA 3072]----+
+|oo..+=Eo ..      |
+|oB.+.B.++. .     |
+|+.X B.oo+ +      |
+|.+ =   . o o     |
+|  + B   S .      |
+|   B @ .         |
+|    * =          |
+|                 |
+|                 |
++----[SHA256]-----+
+
+>   ~ 
+> 17:23:49 ssh whs31@192.168.18.17
+whs31@192.168.18.17's password:
+Welcome to Ubuntu 24.10 (GNU/Linux 6.11.0-9-generic x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/products/support
+Last login: Sat Nov  2 11:31:00 2024 from 192.168.18.14
+
+> vim /etc/ssh/sshd_config
+> cat /etc/ssh/sshd_config | grep 'PasswordAuthentication'
+PasswordAuthentication no
+# PasswordAuthentication.  Depending on your PAM configuration,
+# PAM authentication, then enable this but set PasswordAuthentication

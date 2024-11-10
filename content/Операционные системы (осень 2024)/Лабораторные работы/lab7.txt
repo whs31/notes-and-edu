@@ -1,0 +1,50 @@
+# Лабораторная работа No7
+# Рязанцев Дмитрий
+# https://whs31.github.io/notes-and-edu/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-(%D0%BE%D1%81%D0%B5%D0%BD%D1%8C-2024)/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-7
+
+> ps -p 1 -o pid,ppid,cmd,%cpu,%mem
+    PID    PPID CMD                         %CPU %MEM
+      1       0 /sbin/init                   0.0  0.0
+
+> pstree -p 1
+systemd(1)─┬─NetworkManager(481)─┬─{NetworkManager}(503)
+           │                     ├─{NetworkManager}(504)
+           │                     └─{NetworkManager}(505)
+           ├─containerd(529)─┬─{containerd}(530)
+           │                 ├─{containerd}(531)
+           │                 ├─{containerd}(532)
+           │                 ├─{containerd}(533)
+           │                 ├─{containerd}(534)
+           │                 ├─{containerd}(537)
+           │                 ├─{containerd}(538)
+           │                 ├─{containerd}(539)
+           │                 ├─{containerd}(540)
+           │                 ├─{containerd}(541)
+           │                 ├─{containerd}(542)
+           │                 └─{containerd}(544)
+           ├─containerd-shim(64177)─┬─HeliSimCore(64285)─┬─{HeliSimCore}(64426)
+           │                        │                    └─{HeliSimCore}(64427)
+           │                        ├─{containerd-shim}(64178)
+           │                        ├─{containerd-shim}(64179)
+           │                        ├─{containerd-shim}(64180)
+           │                        ├─{containerd-shim}(64181)
+           │                        ├─{containerd-shim}(64182)
+           │                        ├─{containerd-shim}(64183)
+           │                        ├─{containerd-shim}(64184)
+           ...
+           ...
+
+> ps aux | grep 'zsh'   
+whs31    1047078  0.0  0.0  11456  9052 pts/10   Ss+  Oct30   0:00 /usr/bin/zsh -i
+whs31    1173545  0.0  0.0  11524  9428 pts/13   Ss+  16:56   0:00 /usr/bin/zsh -i
+whs31    1177650  1.3  0.0  15628 13900 pts/9    Ss   17:08   1:00 /usr/bin/zsh
+whs31    1235038  0.0  0.0  15676 10912 pts/9    S    18:24   0:00 /usr/bin/zsh
+whs31    1235039  0.0  0.0  15708 10920 pts/9    S    18:24   0:00 /usr/bin/zsh
+whs31    1235041  0.0  0.0   6644  4340 pts/9    S+   18:24   0:00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox --exclude-dir=.venv --exclude-dir=venv zsh
+
+> ps -p 1173545 -o pid,ppid,cmd,%cpu,%mem 
+    PID    PPID CMD                         %CPU %MEM
+1173545 1004505 /usr/bin/zsh -i              0.0  0.0
+
+> pstree -p 1173545  
+zsh(1173545)

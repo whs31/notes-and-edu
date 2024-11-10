@@ -1,0 +1,60 @@
+# Лабораторная работа No2
+# Рязанцев Дмитрий
+# https://whs31.github.io/notes-and-edu/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-(%D0%BE%D1%81%D0%B5%D0%BD%D1%8C-2024)/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-2
+
+# Управление пользователями
+> sudo useradd -m -d /home/dummyuser -s /bin/zsh dummyuser 
+> ls /home
+dummyuser whs31
+
+> sudo cat /etc/passwd | grep dummyuser
+dummyuser:x:1001:1002::/home/dummyuser:/bin/bash        
+
+> sudo userdel -r dummyuser
+userdel: dummyuser mail spool (/var/mail/dummyuser) not found # user is deleted anyways
+
+> ls /home
+whs31
+
+# Управление группами
+> sudo groupadd dummygroup
+> sudo cat /etc/group | grep dummygroup
+dummygroup:x:1003:
+
+> sudo usermod -a -G dummygroup dummyuser
+> sudo cat /etc/group | grep dummygroup
+dummygroup:x:1003:dummyuser
+
+> sudo usermod -r -G dummygroup dummyuser
+> sudo cat /etc/group | grep dummygroup
+dummygroup:x:1003:
+
+> sudo groupdel dummygroup
+
+# Создание пользователя с правами суперпользователя
+
+> sudo useradd -m -d /home/dummyuser -s /bin/zsh dummyuser
+> sudo usermod -aG sudo dummyuser
+> groups dummyuser
+dummyuser : dummyuser sudo
+
+> sudo cat /etc/sudoers | grep dummyuser
+dummyuser ALL=(ALL) ALL
+
+> sudo -u dummyuser -i
+> whoami
+dummyuser
+
+> sudo rm -rf /
+rm: it is dangerous to operate recursively on '/'
+rm: use --no-preserve-root to override this failsafe
+
+> sudo -u whs31 -i
+> sudo userdel -r dummyuser
+userdel: dummyuser mail spool (/var/mail/dummyuser) not found
+
+# Выдать одному из созданных пользователей право на выполнение ряда команд, требующих sudo
+> sudo visudo
+
+Добавить в конец файла:
+dummyuser ALL=(ALL) /usr/bin/rm /usr/bin/whoami 

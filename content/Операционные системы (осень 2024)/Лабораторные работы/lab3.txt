@@ -1,0 +1,78 @@
+# Лабораторная работа No3
+# Рязанцев Дмитрий
+# https://whs31.github.io/notes-and-edu/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-(%D0%BE%D1%81%D0%B5%D0%BD%D1%8C-2024)/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-3
+
+# Потоки ввода/вывода
+> ls -l && echo -v > filename && ls -l
+total 0
+
+> find /etc -type f -exec cat {} \; 2> ./errors.txt && clear
+total 4
+-rw-r--r-- 1 whs31 whs31 3 Oct 31 17:09 filename
+
+> cat ./errors.txt
+find: ‘/etc/credstore.encrypted’: Permission denied
+cat: /etc/sudoers: Permission denied
+cat: /etc/ppp/chap-secrets.example: Permission denied
+cat: /etc/ppp/pap-secrets.example: Permission denied
+cat: /etc/ppp/eaptls-client.example: Permission denied
+cat: /etc/ppp/eaptls-server.example: Permission denied
+cat: /etc/gshadow: Permission denied
+find: ‘/etc/credstore’: Permission denied
+cat: /etc/libaudit.conf: Permission denied
+find: ‘/etc/cni/net.d’: Permission denied
+find: ‘/etc/cryptsetup-keys.d’: Permission denied
+find: ‘/etc/pacman.d/gnupg/private-keys-v1.d’: Permission denied
+find: ‘/etc/pacman.d/gnupg/openpgp-revocs.d’: Permission denied
+cat: /etc/pacman.d/gnupg/secring.gpg: Permission denied
+cat: /etc/shadow: Permission denied
+cat: /etc/crypttab: Permission denied
+cat: /etc/.pwd.lock: Permission denied
+find: ‘/etc/polkit-1/rules.d’: Permission denied
+find: ‘/etc/sudoers.d’: Permission denied
+find: ‘/etc/audit/plugins.d’: Permission denied
+cat: /etc/audit/audisp-filter.conf: Permission denied
+cat: /etc/audit/zos-remote.conf: Permission denied
+cat: /etc/audit/audisp-remote.conf: Permission denied
+cat: /etc/default/useradd: Permission denied
+find: ‘/etc/NetworkManager/system-connections’: Permission denied
+cat: /etc/gshadow-: Permission denied
+cat: /etc/shadow-: Permission denied
+
+> ls -l /etc | cut -c1-10 | sort | uniq  
+drwx------
+drwxr-x---
+drwxr-xr-x
+dr-xr-xr-x
+lrwxrwxrwx
+-r--r-----
+-r--r--r--
+-rw-------
+-rw-r-----
+-rw-r--r--
+total 1156
+
+# Управление процессами 
+> sudo sed -i 's/^#.*PasswordAuthentication yes/#   PasswordAuthentication no/' /etc/ssh/ssh_config
+> sudo systemctl restart sshd
+> sudo sed -i 's/^#.*PasswordAuthentication no/#   PasswordAuthentication yes/' /etc/ssh/ssh_config
+> sudo systemctl reload sshd
+
+Разница между restart и reload:
+    restart перезапускает службу, а reload перезагружает конфигурационный файл
+    restart останавливает процесс и перезапускает его, reload не прерывает работу процесса
+
+# Сигналы процессам
+> nano &
+> ps aux | grep 'nano'    
+[1] 1186214
+[1]  + 1186214 suspended (tty output)  nano 
+
+> jobs
+whs31    1186214  0.0  0.0   8616  5744 pts/9    TN   17:22   0:00 nano
+whs31    1188015  0.0  0.0   6644  4360 pts/9    S+   17:22   0:00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox --exclude-dir=.venv --exclude-dir=venv nano
+
+[1]  + suspended (tty output)  nano
+
+> kill -9 1186214  
+[1]  + 1186214 killed     nano
